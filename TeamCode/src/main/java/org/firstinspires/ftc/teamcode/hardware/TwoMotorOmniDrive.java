@@ -12,6 +12,10 @@ public class TwoMotorOmniDrive {
         center = hwMap.get(DcMotorEx.class, "centerMotor");
     }
 
-    public void setFrontPower(double p) { front.setPower(p); }
-    public void setCenterPower(double p) { center.setPower(p); }
+    public void setFrontPower(double p) {
+        front.setPower(p);
+    }
+    public void setCenterPower(double p) {
+        center.setPower(p);
+    }
 }
